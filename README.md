@@ -13,7 +13,7 @@ Estruturas básicas do HTML5:
 
 Customização com CSS3:
 Style:
-   font-size;
-   text-align;
-   color;
-   background;
+- font-size;
+- text-align;
+- color;
+- background;
