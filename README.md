@@ -1,7 +1,7 @@
 # curso_alura_html5
 Curso Alura HTML5  e CSS3
 
-Estruturas básicas do HTML5:
+# Estruturas básicas do HTML5:
 - html
 - head
 - body
@@ -11,7 +11,7 @@ Estruturas básicas do HTML5:
 - em
 - strong
 
-Customização com CSS3:
+# Customização com CSS3:
 Style:
 - font-size;
 - text-align;
