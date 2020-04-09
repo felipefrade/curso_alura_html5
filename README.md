@@ -10,6 +10,10 @@ Curso Alura HTML5  e CSS3
 - p
 - em
 - strong
+- div
+- img
+- ul
+- li
 
 # Customização com CSS3:
 Style:
@@ -17,3 +21,8 @@ Style:
 - text-align;
 - color;
 - background;
+- inline;
+- block;
+- inline-block;
+- identificador (id);
+- classe (class);
