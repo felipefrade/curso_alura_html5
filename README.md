@@ -5,6 +5,7 @@ Curso Alura HTML5  e CSS3
 - html
 - head
 - body
+- header
 - title
 - h1
 - p
