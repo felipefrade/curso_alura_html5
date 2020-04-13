@@ -15,6 +15,8 @@ Curso Alura HTML5  e CSS3
 - img
 - ul
 - li
+- nav
+- a
 
 # Customização com CSS3:
 Style:
@@ -27,3 +29,8 @@ Style:
 - inline-block;
 - identificador (id);
 - classe (class);
+- position: static
+- position: relative
+- position: absolute
+- text-transform
+- text-decoration
