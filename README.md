@@ -17,6 +17,8 @@ Curso Alura HTML5  e CSS3
 - li
 - nav
 - a
+- main
+- footer
 
 # Customização com CSS3:
 Style:
@@ -34,3 +36,6 @@ Style:
 - position: absolute
 - text-transform
 - text-decoration
+- hover
+- active
+

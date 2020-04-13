@@ -1,32 +1,95 @@
-header{
+header {
     background: #BBBBBB;
     padding: 20px 0; /* margem interna top/botton=20px e left/right zerada */
 }
 
-.caixa{
+.caixa {
     position: relative;
     width: 940px;
     margin: 0 auto; /* margem externa top/botton zerada e left/right automática */
 }
 
 /* Alinhando o menu de acordo com o cabeçalho */
-nav{
+nav {
     position: absolute;
     top: 110px;
     right: 0;
 }
 
 /* Formatando o posicionamento da lista do menu */
-nav li{
+nav li {
     display: inline;
     margin: 0 0 0 15px;
 }
 
 /* Formatação dos links do menu */
-nav a{
+nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    box-sizing: border-box; /* faz com que as bordas não sejam somadas aos 30%, e sim calculadas dentro deste valor */
+    border: 2px solid #000000; /* Declaração unificada */
+    border-radius: 10px;
+}
+/* Altera cor do texto enquanto o mouse estiver sobre o elemento */
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+/* Altera a cor do texto ao clicar no elemento */
+.produtos li:active {
+    border-color: #088C19;
+}
+
+/* Altera o tamanho da fonte predefinida do texto enquanto o mouse estiver sobre o elemento */
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos-descricao {
+    font-size: 18px;
+}
+
+.produtos-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-image: url("C:/Users/Felipe/Documents/GitHub/curso_alura_html5/images/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
 }
