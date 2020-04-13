@@ -1,0 +1,32 @@
+header{
+    background: #BBBBBB;
+    padding: 20px 0; /* margem interna top/botton=20px e left/right zerada */
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto; /* margem externa top/botton zerada e left/right automática */
+}
+
+/* Alinhando o menu de acordo com o cabeçalho */
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+/* Formatando o posicionamento da lista do menu */
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+/* Formatação dos links do menu */
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
