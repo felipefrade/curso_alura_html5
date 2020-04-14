@@ -1,3 +1,40 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0; /* margem interna top/botton=20px e left/right zerada */
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto; /* margem externa top/botton zerada e left/right automática */
+}
+
+/* Alinhando o menu de acordo com o cabeçalho */
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+/* Formatando o posicionamento da lista do menu */
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+/* Formatação dos links do menu */
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+}
+
 #banner {
     width: 100%;
 }
@@ -8,16 +45,18 @@
     padding: 30px;
 }
 
-.titulo-principal {
-    padding-left: 20px;
-}
-
 .titulo-centralizado {
     text-align: center;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 p {
     text-align: center;
+}
+
+.sobre {
+    font-size: 18px;
 }
 
 /* Identificador */
@@ -29,24 +68,40 @@ em strong {
      color: #FF0000;
 }
 
-/* Classe */
-.itens {
-    font-style: italic;
-}
-
 /* Classe da seção benefícios */
 .beneficios {
     background: #FFFFFF;
     padding: 20px;
 }
 
-ul{
+.lista {
     display: inline-block ;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
+    font-size: 20px;
+}
+
+/* Classe */
+.itens {
+    margin-top: 10px;
+    font-style: italic;
+    list-style-position: inside;
+    list-style-type: disc;
 }
 
 .imagembeneficios {
     width: 50%;
+}
+
+footer {
+    text-align: center;
+    background-image: url("C:/Users/Felipe/Documents/GitHub/curso_alura_html5/images/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
 }
