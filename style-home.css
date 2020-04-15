@@ -35,51 +35,63 @@ nav a:hover {
     color: #C78C19;
 }
 
-.produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
+#banner {
+    width: 100%;
 }
 
-.produtos li {
-    display: inline-block;
+/* Classe da seção principal */
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+.titulo-centralizado {
     text-align: center;
-    width: 30%;
-    vertical-align: top;
-    padding: 30px 20px;
-    margin: 0 1.5%;
-    box-sizing: border-box; /* faz com que as bordas não sejam somadas aos 30%, e sim calculadas dentro deste valor */
-    border: 2px solid #000000; /* Declaração unificada */
-    border-radius: 10px;
-}
-/* Altera cor do texto enquanto o mouse estiver sobre o elemento */
-.produtos li:hover {
-    border-color: #C78C19;
-}
-
-/* Altera a cor do texto ao clicar no elemento */
-.produtos li:active {
-    border-color: #088C19;
-}
-
-/* Altera o tamanho da fonte predefinida do texto enquanto o mouse estiver sobre o elemento */
-.produtos li:hover h2 {
-    font-size: 34px;
-}
-
-.produtos h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 
-.produtos-descricao {
+p {
+    text-align: center;
+}
+
+.sobre {
     font-size: 18px;
 }
 
-.produtos-preco{
-    font-size: 22px;
-    font-weight: bold;
+/* Identificador */
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+     color: #FF0000;
+}
+
+/* Classe da seção benefícios */
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.lista {
+    display: inline-block ;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+
+/* Classe */
+.itens {
     margin-top: 10px;
+    font-style: italic;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.imagembeneficios {
+    width: 50%;
 }
 
 footer {
