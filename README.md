@@ -19,6 +19,17 @@ Curso Alura HTML5  e CSS3
 - a
 - main
 - footer
+- label
+- input
+- table
+- tr
+- td
+- thead
+- tbody
+- th
+- fieldset
+- form
+
 
 # Customização com CSS3:
 Style:
