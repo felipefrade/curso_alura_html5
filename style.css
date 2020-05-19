@@ -1,3 +1,6 @@
+body {
+    font-family: 'Montserrat', sans-serif; /*Sans-serif é a fonte alternativa caso a Montserrat não for compatível */
+}
 header {
     background: #BBBBBB;
     padding: 20px 0; /* margem interna top/botton=20px e left/right zerada */
